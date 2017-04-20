@@ -465,7 +465,7 @@ git checkout newfeature
 git rebase master
 ```
 
-4)
+4) Rebase commits
 ```shell
 # Rebase all commits on your development branch
 git checkout
