@@ -429,9 +429,11 @@ git remote add upstream https://github.com/UPSTREAM-USER/ORIGINAL-PROJECT.git
 
 ```shell
 # Fetch upstream master and merge with your repo's master branch
-git fetch upstream # if there are any local changes to the upstream branch we can force merge(--hard) or resolve the conflicts.
+git fetch upstream
 git checkout master
 git merge upstream/master
+# or
+git reset --hard origin/upstream # just to force! and delete local changes to upstream branch
 ```
 
 2) Branch
