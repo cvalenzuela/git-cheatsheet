@@ -433,7 +433,7 @@ git fetch upstream
 git checkout master
 git merge upstream/master
 # or
-git reset --hard origin/upstream # just to force! and delete local changes to upstream branch
+git reset --hard upstream/master # just to force! and delete local changes to upstream branch
 ```
 
 2) Branch
